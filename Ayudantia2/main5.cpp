@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 
-struct parabola{
-    int x;
+struct parabola{ //definimos una clase de variable llamada parablola
+    int x;  
     int y;
 };
 
 int main() {
 
-    parabola p1;
+    parabola p1; //creamos una variable p1 del tipo parabola
 
     cout<<"Ingrese los valores de la parabola 1"<<endl;
     cout<<"x= ";
